@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMG | Contact</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg,#f9fcff,#e6f7ff);
+            color:#222;
+        }
+
+        header{
+            background:#fff;
+            padding:20px 40px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            box-shadow:0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .logo{
+            font-size:32px;
+            font-weight:bold;
+            color:#00aaff;
+            letter-spacing:4px;
+        }
+
+        nav a{
+            text-decoration:none;
+            margin-left:20px;
+            color:#333;
+            font-weight:600;
+        }
+
+        nav a:hover{
+            color:#00aaff;
+        }
+
+        .contact-section{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:80vh;
+            padding:40px;
+        }
+
+        .contact-box{
+            background:#fff;
+            width:380px;
+            padding:35px;
+            border-radius:25px;
+            box-shadow:0 20px 40px rgba(0,170,255,0.25);
+        }
+
+        .contact-box h2{
+            text-align:center;
+            margin-bottom:25px;
+            color:#00aaff;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:12px;
+            margin-bottom:15px;
+            border-radius:10px;
+            border:1px solid #ccc;
+            font-size:14px;
+        }
+
+        textarea{
+            resize:none;
+            height:90px;
+        }
+
+        button{
+            width:100%;
+            padding:14px;
+            background: linear-gradient(90deg,#00aaff,#00ffd5);
+            border:none;
+            border-radius:30px;
+            color:#fff;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        button:hover{
+            opacity:0.9;
+        }
+
+        footer{
+            background:#fff;
+            text-align:center;
+            padding:20px;
+            color:#777;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SMG</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" style="color:#00aaff;">Contact</a>
+    </nav>
+</header>
+
+<section class="contact-section">
+    <div class="contact-box">
+        <h2>Contact SMG</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 SMG — Street • Modern • Global
+</footer>
+
+</body>
+</html>
